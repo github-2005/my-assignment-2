@@ -2,7 +2,7 @@
 
 header{
     background-color: black;
-    width: 1040px;
+    width: 1140px;
     height: 600px;
     border: 2px solid red;
     border-radius: 12px;
@@ -57,15 +57,20 @@ button{
     color: white;
     padding-left: 50px;
     display: flex;
-    gap: 330px;
+    gap: 340px;
     
 }
 .head-2{
-    font-size: 40px;
-    padding-top: 80px;
+    font-size: 50px;
+    padding-top: 50px;
     font-weight: bolder;
-
-    
+    font-family: inter;
+    font-weight: 900;
+}
+.span{
+    font-weight: 400;
+    font-family: miama;
+    font-style: italic;
 }
 
 .image{
@@ -88,5 +93,70 @@ button{
     border-radius: 20px;
     border: 1px solid white;
 
+}
+
+.box-1{
+    /* border: 2px solid; */
+    color: white;
+    height: 70px;
+    width: 150px;
+    margin-top: 200px;
+    background-color: rgb(53, 34, 34);
+    
+}
+.box{
+    margin-left: 600px;
+    margin-top: -270px;
+    display: flex;
+    gap: 80px;
+    
+
+}
+.he{
+    margin-top: -40px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(250, 242, 242);
+    padding-left: 50px;
+    
+    
+
+}
+.pe{
+    margin-top: -30px;
+    padding-left: 50px;
+    font-size: 15px;
+    color: aquamarine;
+}
+.box-3{
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.box-2{
+    /* border: 2px solid; */
+    color: white;
+    height: 70px;
+    width: 150px;
+    background-color: rgb(53, 34, 34);
+    
+}
+.he-2{
+    margin-top: 15px;
+    font-size: 30px;
+    color: rgb(249, 245, 245);
+    padding-left: 20px;
+    
+    
+}
+.pe-2{
+    margin-top: -30px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: aquamarine;
 }
 
